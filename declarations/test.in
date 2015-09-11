@@ -1,8 +1,26 @@
 
 int a ;
-int b ;
+char b ;
 int c [1];
-int d [1234567890];
+char d [1234567890];
 int e, f;
-int g, h, i ;
-extern int j;
+char g, h, i ;
+int j ( void );
+int j ( int i );
+char j ( char i );
+void j ( char i, int h, char p[] );
+char j ( char i,
+         int h,
+         char p[]
+        ),
+        x (int i),
+        b( void );
+
+extern char j ( char i );
+extern void j ( char i, int h, char p[] );
+extern char j ( char i, int h, char p[] ),  x(int i), b(void);
+
+int ab;
+int asdf;
+int asdf__1;
+int asdf1__;
