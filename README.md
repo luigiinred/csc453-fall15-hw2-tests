@@ -24,4 +24,4 @@ Your output and the output of diff will be saved into each test's directory.
 
 If there is an test.err file in a test's directory I will assume the exit status should be 1
 
-I am assuming all errors are formatted "Error on line x" (I will change this once I think of something I like)
+I am assuming all errors are formatted "Line {{ Line Number }}: {{ Message }}: unexpected \"{{ Lexeme }}\""
