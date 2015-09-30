@@ -1,5 +1,5 @@
 #!/bin/bash
-
+git pull origin master
 for d in */ ; do
 
 
