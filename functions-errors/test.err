@@ -1,3 +1,4 @@
 Line 18: syntax error: unexpected "int"
-Line 30: syntax error: unexpected "["
-Line 39: syntax error: unexpected ")"
+Line 31: syntax error: unexpected "int"
+Line 34: syntax error: unexpected "["
+Line 43: syntax error: unexpected ")"

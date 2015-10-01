@@ -25,6 +25,8 @@ int func_while(int i, char a[])
  {
 
  }
+ while(i)
+ i = 1;
 }
 
 int func_while(char a[], char a[],char a[],char a[])

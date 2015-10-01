@@ -15,7 +15,7 @@ int func_if(void)
   foo = 2;
  }
 
- int foo = 1; /* Can't have var_decl after stmt*/
+ int foo = 1; /* Can't have var_decl after stmt */
 }
 
 int func_while(void)
@@ -25,6 +25,10 @@ int func_while(void)
  {
 
  }
+
+ while (1)
+
+ int i;
 }
 
 int func_while(int i, char [], int b[])
