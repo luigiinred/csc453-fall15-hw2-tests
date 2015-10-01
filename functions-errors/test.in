@@ -1,6 +1,4 @@
-int func_empty(void){}
-
-void func_assg(void){
+int func_assg(void){
  foo = 1;
  ;
  ;
@@ -9,16 +7,18 @@ void func_assg(void){
 
 }
 
-int func_if(int i)
+int func_if(void)
 {
  if(foo == 1){
   foo = 1;
  }else{
   foo = 2;
  }
+
+ int foo = 1; /* Can't have var_decl after stmt*/
 }
 
-int func_while(int i, char a[])
+int func_while(void)
 {
  foo = 1;
  while (1 == asdf)
@@ -27,7 +27,7 @@ int func_while(int i, char a[])
  }
 }
 
-int func_while(char a[], char a[],char a[],char a[])
+int func_while(int i, char [], int b[])
 {
  foo = 1;
  while (1 == asdf)
@@ -36,8 +36,7 @@ int func_while(char a[], char a[],char a[],char a[])
  }
 }
 
-int func_for
-(void)
+int func_for(char a[], char a[],char a[],char a[],)
 {
  for(;;){
  }

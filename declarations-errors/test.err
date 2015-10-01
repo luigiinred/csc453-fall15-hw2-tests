@@ -1,0 +1,6 @@
+Line 1: syntax error: unexpected ";"
+Line 2: syntax error: unexpected "c"
+Line 3: syntax error: unexpected "a"
+Line 4: syntax error: unexpected ")"
+Line 5: syntax error: unexpected "asdf"
+Line 8: syntax error: unexpected "int"
