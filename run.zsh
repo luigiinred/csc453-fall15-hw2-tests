@@ -40,7 +40,16 @@ for d in */ ; do
 
       # I do not get an error
       else
-        echo "$d Passed"
+        diff -c $d/out.txt $d/test.out >$d/diff.out 2>&1
+        if [ $? -eq 0 ]
+        then
+            echo "$d Passed"
+        else
+          echo -e "$d Failed\Outputs do not match \ndiff.out:\n"
+          cat $d/diff.out
+          echo -e "\n"
+        fi
+
 
       fi
     fi
